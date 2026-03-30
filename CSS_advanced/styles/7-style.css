@@ -1,4 +1,5 @@
 :root {
+    /* Colors */
     --color-primary: #d73953;
     --color-black: #090909;
     --color-white: #ffffff;
@@ -6,24 +7,27 @@
     --color-dark-grey: #353535;
     --text-color: var(--color-black);
 
+    /* Fonts */
     --font-family-base: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-family-title: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+    /* Font sizes */
     --font-size-small: 1.2rem;
     --font-size-medium: 1.6rem;
     --font-size-large: 1.8rem;
     --font-size-x-large: 2.3rem;
     --font-size-xx-large: 4.8rem;
 
+    /* Font weights */
     --font-weight-regular: 400;
     --font-weight-bold: 700;
 }
 
 html {
-    scroll-behavior: smooth;
     font-size: 62.5%;
 }
 
+/* Body */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
@@ -31,6 +35,12 @@ body {
     font-weight: var(--font-weight-regular);
 }
 
+/* Links */
+a {
+    color: var(--text-color);
+}
+
+/* Headings */
 h1,
 h2,
 h3,
@@ -41,18 +51,15 @@ h6 {
     font-weight: var(--font-weight-bold);
 }
 
-a {
-    color: var(--text-color);
-}
-
-.visually-hidden {
-    display: none;
+/* Components */
+.section-tagline {
+    color: var(--color-primary);
 }
 
 .card-category {
     color: var(--color-primary);
 }
 
-.section-tagline {
-    color: var(--color-primary);
+.visually-hidden {
+    display: none;
 }
