@@ -551,12 +551,12 @@ a:active {
     color: var(--text-color);
 }
 
-/* Social link */
+/* Social links as block elements */
 .social-link {
     display: block;
 }
 
-/* Social link svg */
+/* Social links' SVG children */
 .social-link>svg {
     fill: var(--text-color);
 }
