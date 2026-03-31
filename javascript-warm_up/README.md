@@ -1,1 +1,1 @@
-Javascript lesson
+Javascript lesson at holberton school
